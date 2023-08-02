@@ -6,7 +6,7 @@ import xml.etree.ElementTree as ET
 import os
 import copy
 
-x = requests.get('https://lgapi-us.libapps.com/1.1/guides?status=1&guide_types=1&sort_by=name&site_id=5772&key=905840359c5632d4a1cc97565974bdd6&expand=profile')
+x = requests.get('https://lgapi-us.libapps.com/1.1/guides?status=1&guide_types=1&sort_by=name&site_id=5772&key=fake&expand=profile')
 r = x.json()
 idl = []
 for d in r:
